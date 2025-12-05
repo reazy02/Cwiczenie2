@@ -1,1 +1,1 @@
-# Cwiczenie2
+# Streszczenie 

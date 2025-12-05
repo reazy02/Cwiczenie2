@@ -1,47 +1,46 @@
-\documentclass[12pt,a4paper,twoside]{report}
+\documentclass[12pt,a4paper,twoside]{book}
 
 \usepackage{polski}
-\usepackage[utf8x]{inputenc}
+\usepackage[utf8]{inputenc}
 \usepackage[OT4]{fontenc}
 \usepackage{graphicx}
+\usepackage{float}
 \graphicspath{ {./images/} }
 
 
-\title{Krótki artykuł}
+\title{Automotive - Historia i przyszłość}
 \author{Bartłomiej Posłuszny}
-\date{2024.11.02}
+\date{2025.12.05}
 
 
 \usepackage[a4paper,
             inner=3cm,
-            outer=1cm,
-            top=1cm,
-            bottom=1.6cm]{geometry}
+            outer=1.5cm,
+            top=1.5cm,
+            bottom=2cm]{geometry}
 
 
-\usepackage{multicol}
 
-\linespread{1}
+\linespread{1.2}
 \usepackage{enumitem}
 
 \begin{document}
 
 \maketitle
 
-\begin{abstract}
-    Ten artykuł jest testowy i służy do reprezentacji podstawowych możliwości systemu do składania tekstu.
-\end{abstract}
+\chapter*{Streszczenie}
+\addcontentsline{toc}{chapter}{Streszczenie}
+    Ten dokument jest testowy i służy do reprezentacji podstawowych możliwości systemu do składania tekstu.
+    Automotive - Historia i przyszłość przedstawia historie oraz sposób działania samochodów oraz zmiany 
+    jakie postępują w przemyśle motoryzacyjnym.
 
 \tableofcontents
 
 
-\begin{multicols}{2}
 
 \input{rozdzial1.tex}
 \input{rozdzial2.tex}
 \input{rozdzial3.tex}
-
-\end{multicols}
 
 
 \end{document}

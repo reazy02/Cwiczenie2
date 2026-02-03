@@ -1,4 +1,4 @@
-# Automotive - Historia i przyszłość #
+# Automotive - Historia i przyszłość
 1. Historia początków samochodów
   - Pierwszy silnik
   - Pierwszy samochód
